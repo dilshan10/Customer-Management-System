@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBordFormController">
-
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="67.0" layoutY="152.0" onMouseEntered="#FirstPucMouseEnter" onMouseExited="#FirstPucMouseExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asserts/index.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="364.0" layoutY="152.0" onMouseEntered="#SecondPicMouseEnter" onMouseExited="#SecondPicMouseExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asserts/index.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="152.0" onMouseEntered="#ThiredPicMouseEnter" onMouseExited="#ThiredPicMouseExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asserts/index.jpg" />         </image>
+      </ImageView>
+      <Label fx:id="lblTital" alignment="CENTER" layoutX="315.0" layoutY="404.0" prefHeight="16.0" prefWidth="270.0" text="Chesse Your Option" textAlignment="CENTER">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="19.0" layoutY="27.0" prefHeight="27.0" prefWidth="133.0" text="Dash Bord" textAlignment="CENTER">
+         <font>
+            <Font name="Footlight MT Light" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="759.0" layoutY="22.0" onMouseEntered="#UserImageMouseEnter" onMouseExited="#UserImageMouseExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asserts/index.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="822.0" layoutY="22.0" onMouseEntered="#LogOutImageMouseEnter" onMouseExited="#LogOutImageMouseExit" pickOnBounds="true">
+         <image>
+            <Image url="@asserts/index.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="696.0" layoutY="22.0" onMouseEntered="#SettingsImageMouseEnter" onMouseExited="#SettingsImageMouseExit" pickOnBounds="true">
+         <image>
+            <Image url="@asserts/index.jpg" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>

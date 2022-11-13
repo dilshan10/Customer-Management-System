@@ -11,7 +11,7 @@
    <children>
       <Button layoutX="166.0" layoutY="325.0" mnemonicParsing="false" onAction="#LoginOnAction" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: green;" text="Login" textFill="WHITE" />
       <TextField fx:id="txtPassword" layoutX="120.0" layoutY="285.0" onKeyReleased="#LoginOnKeyAction" prefHeight="25.0" prefWidth="198.0" promptText="********" style="-fx-background-color: black; -fx-border-color: white; -fx-text-fill: white;" />
-      <TextField fx:id="txtUserName" layoutX="120.0" layoutY="233.0" onKeyReleased="#GetFouceOnAction" prefHeight="25.0" prefWidth="198.0" promptText="example@123" style="-fx-background-color: black; -fx-border-color: white; -fx-text-fill: white;" />
+      <TextField fx:id="txtUserName" layoutX="120.0" layoutY="233.0" onKeyReleased="#GetFocusOnAction" prefHeight="25.0" prefWidth="198.0" promptText="example@123" style="-fx-background-color: black; -fx-border-color: white; -fx-text-fill: white;" />
       <Label layoutX="38.0" layoutY="237.0" text="User Name :" textFill="WHITE" />
       <Label layoutX="43.0" layoutY="289.0" text="Password :" textFill="WHITE" />
       <Separator layoutX="326.0" layoutY="15.0" orientation="VERTICAL" prefHeight="520.0" prefWidth="0.0" style="-fx-background-color: black;" />
