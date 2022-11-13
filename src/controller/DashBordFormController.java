@@ -18,51 +18,63 @@ public class DashBordFormController {
     private final String LocationPath = "../views/";
 
     public void FirstPucMouseEnter(MouseEvent mouseEvent) {
-        lblTital.setText("Hello");
+        lblTital.setText("CUSTOMER");
+        lbtSubTital.setText("You Can Save,Update,Delete,Read And find Customer Data In This Option..!");
     }
 
     public void FirstPucMouseExit(MouseEvent mouseEvent) {
         lblTital.setText("Chesse Your Option");
+        lbtSubTital.setText("");
     }
 
     public void SecondPicMouseEnter(MouseEvent mouseEvent) {
-        lblTital.setText("Hello");
+        lblTital.setText("ITEMS");
+        lbtSubTital.setText("You Can Save,Update,Delete,Read And find Item Data In This Option..!");
     }
 
     public void SecondPicMouseExit(MouseEvent mouseEvent) {
         lblTital.setText("Chesse Your Option");
+        lbtSubTital.setText("");
     }
 
     public void ThiredPicMouseEnter(MouseEvent mouseEvent) {
-        lblTital.setText("Hello");
+        lblTital.setText("PURCHES ORDER");
+        lbtSubTital.setText("You Can Save,Update,Delete,Read And find Purches Order Data In This Option..!");
     }
 
     public void ThiredPicMouseExit(MouseEvent mouseEvent) {
         lblTital.setText("Chesse Your Option");
+        lbtSubTital.setText("");
     }
 
     public void UserImageMouseEnter(MouseEvent mouseEvent) {
         lblTital.setText("User Settings");
+        lbtSubTital.setText("You Can Save,Update,Delete,Read And find User Data In This Option..!");
     }
 
     public void UserImageMouseExit(MouseEvent mouseEvent) {
         lblTital.setText("Chesse Your Option");
+        lbtSubTital.setText("");
     }
 
     public void LogOutImageMouseEnter(MouseEvent mouseEvent) {
         lblTital.setText("LogOut");
+        lbtSubTital.setText("You Can LogOut by Click On this Option");
     }
 
     public void LogOutImageMouseExit(MouseEvent mouseEvent) {
         lblTital.setText("Chesse Your Option");
+        lbtSubTital.setText("");
     }
 
     public void SettingsImageMouseEnter(MouseEvent mouseEvent) {
         lblTital.setText("General Settings");
+        lbtSubTital.setText("You Can Chenge General Setting in this Option");
     }
 
     public void SettingsImageMouseExit(MouseEvent mouseEvent) {
         lblTital.setText("Chesse Your Option");
+        lbtSubTital.setText("");
     }
 
     private void PageLoader(String location) throws IOException {

@@ -38,7 +38,7 @@
             <Image url="@asserts/index.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="822.0" layoutY="22.0" onMouseClicked="#UserImageMouseClickOnAction" onMouseEntered="#UserImageMouseEnter" onMouseExited="#LogOutImageMouseExit" pickOnBounds="true">
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="822.0" layoutY="22.0" onMouseClicked="#UserImageMouseClickOnAction" onMouseEntered="#LogOutImageMouseEnter" onMouseExited="#LogOutImageMouseExit" pickOnBounds="true">
          <image>
             <Image url="@asserts/index.jpg" />
          </image>
@@ -49,6 +49,6 @@
          </image>
       </ImageView>
       <Separator layoutX="14.0" layoutY="63.0" prefHeight="1.0" prefWidth="876.0" style="-fx-background-color: red;" />
-      <Label fx:id="lbtSubTital" alignment="CENTER" layoutX="206.0" layoutY="447.0" prefHeight="17.0" prefWidth="492.0" />
+      <Label fx:id="lbtSubTital" alignment="CENTER" layoutX="111.0" layoutY="447.0" prefHeight="17.0" prefWidth="683.0" />
    </children>
 </AnchorPane>
