@@ -5,12 +5,17 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class DashBordFormController {
     public Label lblTital;
+    public AnchorPane root;
+    public Label lbtSubTital;
+
+    private final String LocationPath = "../views/";
 
     public void FirstPucMouseEnter(MouseEvent mouseEvent) {
         lblTital.setText("Hello");
@@ -61,10 +66,31 @@ public class DashBordFormController {
     }
 
     private void PageLoader(String location) throws IOException {
-        Parent parent = FXMLLoader.load(getClass().getResource("../views/DashBord_Form.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource(location));
         Scene subScene = new Scene(parent);
         Stage primaryStage = (Stage) this.root.getScene().getWindow();
         primaryStage.setScene(subScene);
         primaryStage.centerOnScreen();
+    }
+
+    public void FirstPicMouseClickOnAction(MouseEvent mouseEvent) {
+        String Location = LocationPath+"";
+    }
+
+    public void SecondPicMouseClickOnAction(MouseEvent mouseEvent) {
+        String Location  = LocationPath+"";
+    }
+
+    public void ThiredPicMouseClickOnAction(MouseEvent mouseEvent) {
+        String Location  = LocationPath+"";
+    }
+
+    public void UserImageMouseClickOnAction(MouseEvent mouseEvent) {
+        String Location  = LocationPath+"";
+    }
+
+    public void SettingsImageMouseClickOnAction(MouseEvent mouseEvent) throws IOException {
+        String Location  = LocationPath+"Setting_Form.fxml";
+        PageLoader(Location);
     }
 }

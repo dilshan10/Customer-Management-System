@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBordFormController">
+<AnchorPane fx:id="root" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBordFormController">
    <children>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="67.0" layoutY="152.0" onMouseEntered="#FirstPucMouseEnter" onMouseExited="#FirstPucMouseExit" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="86.0" layoutY="152.0" onMouseClicked="#FirstPicMouseClickOnAction" onMouseEntered="#FirstPucMouseEnter" onMouseExited="#FirstPucMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asserts/index.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="364.0" layoutY="152.0" onMouseEntered="#SecondPicMouseEnter" onMouseExited="#SecondPicMouseExit" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="364.0" layoutY="152.0" onMouseClicked="#SecondPicMouseClickOnAction" onMouseEntered="#SecondPicMouseEnter" onMouseExited="#SecondPicMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asserts/index.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="152.0" onMouseEntered="#ThiredPicMouseEnter" onMouseExited="#ThiredPicMouseExit" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="152.0" onMouseClicked="#ThiredPicMouseClickOnAction" onMouseEntered="#ThiredPicMouseEnter" onMouseExited="#ThiredPicMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asserts/index.jpg" />         </image>
       </ImageView>
@@ -32,20 +33,22 @@
             <Font name="Footlight MT Light" size="24.0" />
          </font>
       </Label>
-      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="759.0" layoutY="22.0" onMouseEntered="#UserImageMouseEnter" onMouseExited="#UserImageMouseExit" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="759.0" layoutY="22.0" onMouseClicked="#UserImageMouseClickOnAction" onMouseEntered="#UserImageMouseEnter" onMouseExited="#UserImageMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asserts/index.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="822.0" layoutY="22.0" onMouseEntered="#LogOutImageMouseEnter" onMouseExited="#LogOutImageMouseExit" pickOnBounds="true">
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="822.0" layoutY="22.0" onMouseClicked="#UserImageMouseClickOnAction" onMouseEntered="#UserImageMouseEnter" onMouseExited="#LogOutImageMouseExit" pickOnBounds="true">
          <image>
             <Image url="@asserts/index.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="696.0" layoutY="22.0" onMouseEntered="#SettingsImageMouseEnter" onMouseExited="#SettingsImageMouseExit" pickOnBounds="true">
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="696.0" layoutY="22.0" onMouseClicked="#SettingsImageMouseClickOnAction" onMouseEntered="#SettingsImageMouseEnter" onMouseExited="#SettingsImageMouseExit" pickOnBounds="true">
          <image>
             <Image url="@asserts/index.jpg" />
          </image>
       </ImageView>
+      <Separator layoutX="14.0" layoutY="63.0" prefHeight="1.0" prefWidth="876.0" style="-fx-background-color: red;" />
+      <Label fx:id="lbtSubTital" alignment="CENTER" layoutX="206.0" layoutY="447.0" prefHeight="17.0" prefWidth="492.0" />
    </children>
 </AnchorPane>
