@@ -11,19 +11,19 @@
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="86.0" layoutY="152.0" onMouseClicked="#FirstPicMouseClickOnAction" onMouseEntered="#FirstPucMouseEnter" onMouseExited="#FirstPucMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asserts/index.jpg" />
+            <Image url="@asserts/addItem.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="364.0" layoutY="152.0" onMouseClicked="#SecondPicMouseClickOnAction" onMouseEntered="#SecondPicMouseEnter" onMouseExited="#SecondPicMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asserts/index.jpg" />
+            <Image url="@asserts/PlaceOrder.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="152.0" onMouseClicked="#ThiredPicMouseClickOnAction" onMouseEntered="#ThiredPicMouseEnter" onMouseExited="#ThiredPicMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asserts/index.jpg" />         </image>
+            <Image url="@asserts/manageOrder.png" />         </image>
       </ImageView>
-      <Label fx:id="lblTital" alignment="CENTER" layoutX="315.0" layoutY="404.0" prefHeight="16.0" prefWidth="270.0" text="Chesse Your Option" textAlignment="CENTER">
+      <Label fx:id="lblTital" alignment="CENTER" layoutX="315.0" layoutY="404.0" prefHeight="16.0" prefWidth="270.0" text="WELCOME" textAlignment="CENTER" textFill="#0521f5">
          <font>
             <Font name="Bookman Old Style" size="24.0" />
          </font>
@@ -35,20 +35,21 @@
       </Label>
       <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="759.0" layoutY="22.0" onMouseClicked="#UserImageMouseClickOnAction" onMouseEntered="#UserImageMouseEnter" onMouseExited="#UserImageMouseExit" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asserts/index.jpg" />
+            <Image url="@asserts/470-4703547_icon-user-icon-hd-png-download.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="822.0" layoutY="22.0" onMouseClicked="#UserImageMouseClickOnAction" onMouseEntered="#LogOutImageMouseEnter" onMouseExited="#LogOutImageMouseExit" pickOnBounds="true">
+      <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="822.0" layoutY="26.0" onMouseClicked="#UserImageMouseClickOnAction" onMouseEntered="#LogOutImageMouseEnter" onMouseExited="#LogOutImageMouseExit" pickOnBounds="true">
          <image>
-            <Image url="@asserts/index.jpg" />
+            <Image url="@asserts/images.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="696.0" layoutY="22.0" onMouseClicked="#SettingsImageMouseClickOnAction" onMouseEntered="#SettingsImageMouseEnter" onMouseExited="#SettingsImageMouseExit" pickOnBounds="true">
+      <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="708.0" layoutY="26.0" onMouseClicked="#SettingsImageMouseClickOnAction" onMouseEntered="#SettingsImageMouseEnter" onMouseExited="#SettingsImageMouseExit" pickOnBounds="true">
          <image>
-            <Image url="@asserts/index.jpg" />
+            <Image url="@asserts/setting.png" />
          </image>
       </ImageView>
       <Separator layoutX="14.0" layoutY="63.0" prefHeight="1.0" prefWidth="876.0" style="-fx-background-color: red;" />
-      <Label fx:id="lbtSubTital" alignment="CENTER" layoutX="111.0" layoutY="447.0" prefHeight="17.0" prefWidth="683.0" />
+      <Label fx:id="lbtSubTital" alignment="CENTER" layoutX="111.0" layoutY="447.0" prefHeight="17.0" prefWidth="683.0" text="Please select one of above main operations to proceedPlease select one of above main operations to proceed" />
+      <Label layoutX="262.0" layoutY="519.0" text="Copyright 2022 .Chathuranga Dilshan. All Rights Reserved. MIT License." />
    </children>
 </AnchorPane>

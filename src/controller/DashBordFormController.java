@@ -1,5 +1,8 @@
 package controller;
 
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -7,8 +10,12 @@ import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.LocalTime;
+import java.util.Date;
 
 public class DashBordFormController {
     public Label lblTital;
@@ -17,14 +24,32 @@ public class DashBordFormController {
 
     private final String LocationPath = "../views/";
 
+    public void initialize(){
+        DateAndTime();
+    }
+
+    private void DateAndTime() {
+//        date.setText(new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+//        Timeline Clock =new Timeline(new KeyFrame(Duration.ZERO, e ->{
+//            LocalTime currentTime = LocalTime.now();
+//            time.setText(currentTime.getHour()+":"+
+//                    currentTime.getMinute()+":"+
+//                    currentTime.getSecond());
+//        }),
+//                new KeyFrame(Duration.seconds(1))
+//        );
+//        Clock.setCycleCount(Animation.INDEFINITE);
+//        Clock.play();
+    }
+
     public void FirstPucMouseEnter(MouseEvent mouseEvent) {
         lblTital.setText("CUSTOMER");
         lbtSubTital.setText("You Can Save,Update,Delete,Read And find Customer Data In This Option..!");
     }
 
     public void FirstPucMouseExit(MouseEvent mouseEvent) {
-        lblTital.setText("Chesse Your Option");
-        lbtSubTital.setText("");
+        lblTital.setText("WELCOME");
+        lbtSubTital.setText("Please select one of above main operations to proceed");
     }
 
     public void SecondPicMouseEnter(MouseEvent mouseEvent) {
@@ -33,8 +58,8 @@ public class DashBordFormController {
     }
 
     public void SecondPicMouseExit(MouseEvent mouseEvent) {
-        lblTital.setText("Chesse Your Option");
-        lbtSubTital.setText("");
+        lblTital.setText("WELCOME");
+        lbtSubTital.setText("Please select one of above main operations to proceed");
     }
 
     public void ThiredPicMouseEnter(MouseEvent mouseEvent) {
@@ -43,8 +68,8 @@ public class DashBordFormController {
     }
 
     public void ThiredPicMouseExit(MouseEvent mouseEvent) {
-        lblTital.setText("Chesse Your Option");
-        lbtSubTital.setText("");
+        lblTital.setText("WELCOME");
+        lbtSubTital.setText("Please select one of above main operations to proceed");
     }
 
     public void UserImageMouseEnter(MouseEvent mouseEvent) {
@@ -53,8 +78,8 @@ public class DashBordFormController {
     }
 
     public void UserImageMouseExit(MouseEvent mouseEvent) {
-        lblTital.setText("Chesse Your Option");
-        lbtSubTital.setText("");
+        lblTital.setText("WELCOME");
+        lbtSubTital.setText("Please select one of above main operations to proceed");
     }
 
     public void LogOutImageMouseEnter(MouseEvent mouseEvent) {
@@ -63,8 +88,8 @@ public class DashBordFormController {
     }
 
     public void LogOutImageMouseExit(MouseEvent mouseEvent) {
-        lblTital.setText("Chesse Your Option");
-        lbtSubTital.setText("");
+        lblTital.setText("WELCOME");
+        lbtSubTital.setText("Please select one of above main operations to proceed");
     }
 
     public void SettingsImageMouseEnter(MouseEvent mouseEvent) {
@@ -73,8 +98,8 @@ public class DashBordFormController {
     }
 
     public void SettingsImageMouseExit(MouseEvent mouseEvent) {
-        lblTital.setText("Chesse Your Option");
-        lbtSubTital.setText("");
+        lblTital.setText("WELCOME");
+        lbtSubTital.setText("Please select one of above main operations to proceed");
     }
 
     private void PageLoader(String location) throws IOException {

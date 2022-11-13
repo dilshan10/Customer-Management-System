@@ -15,11 +15,13 @@
       <Label layoutX="38.0" layoutY="237.0" text="User Name :" textFill="WHITE" />
       <Label layoutX="43.0" layoutY="289.0" text="Password :" textFill="WHITE" />
       <Separator layoutX="326.0" layoutY="15.0" orientation="VERTICAL" prefHeight="520.0" prefWidth="0.0" style="-fx-background-color: black;" />
-      <Label layoutX="388.0" layoutY="113.0" text="Customer Management System" textFill="WHITE">
+      <Label layoutX="356.0" layoutY="111.0" prefHeight="49.0" prefWidth="516.0" text="SuPER MARKET Management System" textFill="WHITE">
          <font>
             <Font name="Castellar" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="848.0" layoutY="518.0" text="Label" textFill="#f50000" />
+      <Label layoutX="510.0" layoutY="528.0" text="Copyright 2022 .Chathuranga Dilshan. All Rights Reserved. MIT License." textFill="#f50000" />
+      <Label layoutX="510.0" layoutY="160.0" text="the best wholesale distributors in sri Lanka" textFill="WHITE" />
+      <Separator layoutX="384.0" layoutY="148.0" prefHeight="5.0" prefWidth="460.0" />
    </children>
 </AnchorPane>

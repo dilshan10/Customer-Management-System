@@ -20,6 +20,10 @@ public class LoginFormController {
     final String user = "root";
     final String pass = "1234";
 
+    public void initialize(){
+        txtUserName.requestFocus();
+    }
+
     public void GetFocusOnAction(KeyEvent event) {
         if (event.getCode().equals(KeyCode.ENTER)) {
             txtPassword.requestFocus();
